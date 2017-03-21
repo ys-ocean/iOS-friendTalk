@@ -1,0 +1,12 @@
+
+platform :ios, "8.0"
+#CocoaPods新加入的特性
+target "FriendTalkDemo" do
+
+pod 'AFNetworking'
+pod 'MBProgressHUD'
+pod 'YYKit'
+pod 'Masonry'
+pod 'MJExtension'
+
+end
