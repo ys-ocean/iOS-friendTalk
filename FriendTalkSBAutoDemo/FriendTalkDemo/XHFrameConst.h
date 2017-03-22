@@ -18,7 +18,7 @@ UIKIT_EXTERN const CGFloat XHNickNameRightSpaceForSuperView;
 UIKIT_EXTERN const CGFloat XHNickNameHH;
 
 UIKIT_EXTERN const CGFloat XHTestTopSpaceForNickName;
-UIKIT_EXTERN const CGFloat XHTestRightSpaceForNickName;
+UIKIT_EXTERN const CGFloat XHTestRightSpaceForSuperView;
 
 UIKIT_EXTERN const CGFloat XHShareTopSpaceForText;
 UIKIT_EXTERN const CGFloat XHShareRightSpaceForSuperView;

@@ -17,7 +17,7 @@ CGFloat const XHNickNameRightSpaceForSuperView = TopRightBottomLeftSpace;
 CGFloat const XHNickNameHH = 21.0f;
 
 CGFloat const XHTestTopSpaceForNickName = TopRightBottomLeftSpace;
-CGFloat const XHTestRightSpaceForNickName = TopRightBottomLeftSpace;
+CGFloat const XHTestRightSpaceForSuperView = TopRightBottomLeftSpace;
 
 CGFloat const XHShareTopSpaceForText = TopRightBottomLeftSpace;
 CGFloat const XHShareRightSpaceForSuperView = TopRightBottomLeftSpace;
