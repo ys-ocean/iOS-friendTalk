@@ -132,19 +132,17 @@
     if (talkFrame.shareFrame.size.height<1)
     {
         self.shareView.shareImageViewHeightLayout.constant =0.0f;
-        self.shareView.shareBgViewHeightLayout.constant =0.0f;
         self.shareView.shareLabelViewHeightLayout.constant =0.0f;
+        self.imageVideoViewTopLayout.constant =0.0;
     }
     else
     {
-        self.shareView.shareImageViewHeightLayout.constant =38.0f;
-        self.shareView.shareBgViewHeightLayout.constant =42.0f;
-        self.shareView.shareLabelViewHeightLayout.constant =38.0f;
+        self.shareView.shareImageViewHeightLayout.constant =40.0f;//SB上设置的是40
+        self.shareView.shareLabelViewHeightLayout.constant =40.0f;
     }
     self.shareViewHeightLayout.constant =talkFrame.shareFrame.size.height;
 
     self.imageVideoViewHeightLayout.constant =talkFrame.attachmentFrame.size.height;
-    //self.imageVideoViewWidthLayout.constant =talkFrame.attachmentFrame.size.width;
     
     self.likeViewWidthLayout.constant =0.0f;
 

@@ -23,7 +23,7 @@ CGFloat const XHShareTopSpaceForText = TopRightBottomLeftSpace;
 CGFloat const XHShareRightSpaceForSuperView = TopRightBottomLeftSpace;
 CGFloat const XHShareHH = 50.0f;
 
-CGFloat const XHAttachmentTopSpaceForShare = 0.0f;
+CGFloat const XHAttachmentTopSpaceForShare = 8.0f;
 CGFloat const XHAttachmentRightSpaceForSuperView = TopRightBottomLeftSpace;
 
 CGFloat const XHImageSpace =5.0f;

@@ -15,7 +15,7 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *talkViewHeightLayout;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *shareViewHeightLayout;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *imageVideoViewHeightLayout;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *imageVideoViewWidthLayout;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *imageVideoViewTopLayout;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *commentTableViewHeightLayout;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *likeViewWidthLayout;
 
@@ -45,6 +45,5 @@
 //点赞按钮回调
 - (IBAction)likeBtnClick:(UIButton *)sender;
 
-- (void)GetCellFrame:(TalkModelFrame *)talkFrame;
 
 @end

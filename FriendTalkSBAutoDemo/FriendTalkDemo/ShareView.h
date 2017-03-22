@@ -11,12 +11,10 @@
 @interface ShareView : UIView
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *shareLabelViewHeightLayout;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *shareImageViewHeightLayout;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *shareBgViewHeightLayout;
+
 @property (weak, nonatomic)IBOutlet UIImageView *shareImageView;
 
 @property (weak, nonatomic)IBOutlet UILabel *shareLabel;
-
-@property (weak, nonatomic)IBOutlet UIView *shareBgView;
 
 @property (strong, nonatomic)XHShareModel *share;
 @end

@@ -14,7 +14,7 @@
 {
     [super awakeFromNib];
     
-    self.shareBgView.backgroundColor =[UIColor colorWithRed:233.0/255.0 green:233.0/255.0 blue:233.0/255.0 alpha:1];
+    self.backgroundColor =[UIColor colorWithRed:233.0/255.0 green:233.0/255.0 blue:233.0/255.0 alpha:1];
 }
 
 - (void)setShare:(XHShareModel *)share

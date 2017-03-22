@@ -89,7 +89,7 @@
     CGFloat shareX =X;
     CGFloat shareY =CGRectGetMaxY(self.textFrame) +XHShareTopSpaceForText;
     CGFloat shareW =SCREEN_WIDTH -shareX -XHShareRightSpaceForSuperView;
-    CGFloat shareH =XHShareHH +TopRightBottomLeftSpace;// 下一个控件距离这个为0 所以要加上
+    CGFloat shareH =XHShareHH;//
     return (CGRect){{shareX,shareY},{shareW,shareH}};
 }
 
@@ -107,26 +107,6 @@
     }
     else if ([_talk.isAttachmentType isEqualToNumber:@1])
     {
-        
-//        if ([_talk.images count]==4)
-//        {
-//            attachmentW =2*lowImageW +XHImageSpace;
-//        }
-//        else if([_talk.images count]==1)
-//        {
-//            attachmentW =[_talk.images[0].imageWidth floatValue];
-//        }
-//        else
-//        {
-//            if (_talk.images.count >3)
-//            {
-//                attachmentW =lowImageW *3 +(_talk.images.count-1)*XHImageSpace;
-//            }
-//            else
-//            {
-//                attachmentW =lowImageW *_talk.images.count +(_talk.images.count-1)*XHImageSpace;
-//            }
-//        }
 //       宽度固定 避免打印警告 虽然并不会有什么问题The relevant UICollectionViewFlowLayout instance is <UICollectionViewFlowLayout: 0x100622240>, and it is attached to <ImagesCollectionView: 0x1008f2c00; baseClass = UICollectionView; frame = (66 234; 100 108); autoresize = RM+BM; gestureRecognizers = <NSArray: 0x170055780>; layer = <CALayer: 0x17003d120>; contentOffset: {0, 0}; contentSize: {120, 140}> collection view layout: <UICollectionViewFlowLayout: 0x100622240>.
         
         if ([_talk.images count]>6)
